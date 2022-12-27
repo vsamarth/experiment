@@ -9,7 +9,7 @@
 # Title that will be used for the HIT when posted to mturk
 # e.g.,
 #     title = Stroop task
-;title =
+title = Chair Table
 
 # Description that will be used for the HIT when posted to mturk
 # e.g.,
@@ -23,7 +23,7 @@
 
 # How many hours a given HIT will last on mturk before becoming unavailable
 # for new assignments
-;lifetime = 24
+lifetime = 24
 
 # Whether the HIT will be restricted to US-located mturkers
 ;us_only = true
@@ -179,13 +179,13 @@
 # is run.
 #
 # If env var ON_CLOUD=1, then this defaults to 0.0.0.0
-;host = localhost
+host = 0.0.0.0
 
 # Port on which the psiturk gunicorn server will listen when `psiturk server on`
 # is run.
 #
 # If env var ON_CLOUD=1, then this defaults to $PORT env var, if set
-;port = 22362
+port = 80
 
 # Filename for psiturk server logging.
 #
